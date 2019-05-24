@@ -3,6 +3,9 @@ html {
     background-color: #F3F8FC;
 }
 
+
+/* Tablet */
+
 @media only screen and (max-width: 1200px) {
     html {
         font-size: 14px;
@@ -18,6 +21,13 @@ html {
 @media only screen and (max-width: 810px) {
     html {
         font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #tablet {
+        width: 100%;
+        left: 0;
     }
 }
 
