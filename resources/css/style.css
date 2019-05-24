@@ -31,6 +31,14 @@ html {
     }
 }
 
+/* Mobile */
+
+@media only screen and (max-width: 650px) {
+    html {
+        font-size: 12px;
+    }
+}
+
 body {
     box-sizing: border-box;
 }
@@ -83,6 +91,28 @@ main {
 
 /* Navigation Bar */
 
+@media only screen and (max-width: 650px) {
+    #mobile-nav {
+        display: none;
+    }
+
+    #mobile-hidden {
+        display: flex;
+    }
+
+}
+
+.nav-mobile {
+    display: none;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-mobile img {
+    width: 2.5rem;
+}
+
 .nav-container {
     width: 90%;
     left: 5%;
@@ -90,7 +120,7 @@ main {
     top: 0;
     height: 4rem;
     opacity: 0.9;
-    z-index: 4;
+    z-index: 5;
     background-color: #F3F8FC;
     display: flex;
     align-items: center;
@@ -144,6 +174,22 @@ main {
 
 /* Main Banner */
 
+@media only screen and (max-width: 650px) {
+    .banner {
+        flex-direction: column;
+    }
+    #banner-mobile {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-text {
+        padding: 2rem 1rem;
+        margin: 0 !important;
+    }
+}
+
 .banner {
     width: 100%;
     background-color: #102736;
@@ -193,6 +239,39 @@ main {
 
 /* Section 1 */
 /* LEFT */
+
+@media only screen and (max-width: 650px) {
+    .about-left {
+        display: none;
+    }
+    #about-mobile {
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+    .row {
+        flex-direction: column;
+        padding: 1rem 1rem 2rem 1rem;
+        align-items: flex-start !important;
+        margin-bottom: 1rem !important;
+    }
+    .row-img {
+        display: none;
+    }
+    #row-mobile {
+        display: block;
+        margin-bottom: 1rem;
+    }
+    #row-mobile img {
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+.row-mobile {
+    display: none;
+}
+
 .about {
     width: 100%;
     display: flex;
@@ -318,6 +397,26 @@ main {
 
 /* Section 2, Thesis */
 
+@media only screen and (max-width: 650px) {
+    .thesis {
+        padding: 2rem 0 1.5rem 0 !important;
+    }
+
+    .thesis-right {
+        display: none;
+    }
+    .thesis-left {
+        width: 100% !important;
+    }
+    .thesis-text-left {
+        display: none;
+    }
+    #vid-mobile video {
+        width: 100%;    
+    }
+}
+
+
 .thesis {
     background-color: #2B516D;
     display: flex;
@@ -353,6 +452,20 @@ main {
 }
 
 /* Footer */
+@media only screen and (max-width: 650px) {
+    #footer-text {
+        height: auto;
+        padding: 1rem 0;
+        text-align: center;
+    }
+    .footer-right {
+        display: none;
+    }
+    .footer-left {
+        padding: 0 !important;
+    }
+}
+
 
 footer {
     width: 90%;

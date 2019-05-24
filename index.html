@@ -18,18 +18,25 @@
     <nav>
         <div class="nav-container" id="tablet">
             <!-- Nav Left -->
-            <div class="nav-left">
+            <div class="nav-left" id="mobile-nav">
                 <img src="./resources/images/ic-logo.svg" alt="Logo">
                 <h1><strong>COLMAR</strong>ACADEMY</h1>
             </div>
             <!-- Nav Right -->
-            <div class="nav-right">
-                <ul class="menu-items">
+            <div class="nav-right" id="mobile-nav">
+                <ul>
                     <li><a class="active" href="#">ON CAMPUS</a></li>
                     <li><a href="#">ONLINE</a></li>
                     <li><a href="#">FOR COMPANIES</a></li>
                     <li><a href="#">SIGN IN</a></li>
                 </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="nav-mobile" id="mobile-hidden">
+                <div><a href="#"><img src="./resources/images/ic-logo.svg" alt="Logo"></a></div>
+                <div><a href="#"><img src="./resources/images/ic-on-campus.svg" alt="Campus"></a></div>
+                <div><a href="#"><img src="./resources/images/ic-online.svg" alt="Online"></a></div>
+                <div><a href="#"><img src="./resources/images/ic-login.svg" alt="Login"></a></div>  
             </div>
         </div>
     </nav>
@@ -42,11 +49,11 @@
 
         <header class="banner">
             <!-- Banner Left -->
-            <div class="banner-left">
+            <div class="banner-left" id="banner-mobile">
                 <img src="./resources/images/banner.jpg" alt="Banner">
             </div>
             <!-- Banner Right -->
-            <div class="banner-right">
+            <div class="banner-right" id="banner-mobile">
                 <div class="banner-text">
                     <h2>Learn something new everyday</h2>
                     <br>
@@ -75,10 +82,13 @@
                 </div>
             </div>
             <!-- Columns Right -->
-            <div class="about-right">
+            <div class="about-right" id="about-mobile">
                 <div class="row">
                     <div class="row-img">
                         <img src="./resources/images/information-orientation.jpg" alt="Orientation">
+                    </div>
+                    <div class="row-mobile" id="row-mobile">
+                        <img src="./resources/images/information-orientation-mobile.jpg" alt="Orientation">
                     </div>
                     <div class="row-text">
                         <h4>Orientation Date</h4>
@@ -90,6 +100,9 @@
                     <div class="row-img">
                         <img src="./resources/images/information-campus.jpg" alt="Campus Information">
                     </div>
+                    <div class="row-mobile" id="row-mobile">
+                        <img src="./resources/images/information-campus-mobile.jpg" alt="Campus">
+                    </div>
                     <div class="row-text">
                         <h4>Our Campus</h4>
                         <p>Find which campus is close by you</p>
@@ -99,6 +112,9 @@
                 <div class="row">
                     <div class="row-img">
                         <img src="./resources/images/information-guest-lecture.jpg" alt="Guest Lecture Information">
+                    </div>
+                    <div class="row-mobile" id="row-mobile">
+                        <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="Lecture">
                     </div>
                     <div class="row-text">
                         <h4>Our Guest Lecture</h4>
@@ -182,7 +198,7 @@
             <div class="thesis-container">
                 <!-- Thesis Left -->
                 <div class="thesis-left">
-                    <div class="vid">
+                    <div class="vid" id="vid-mobile">
                         <video src="./resources/videos/thesis.mp4" controls></video>
                     </div>
                     <div class="thesis-text-left">
@@ -219,7 +235,7 @@
     <!-- Footer -->
 
     <footer id="tablet">
-        <div class="footer-text">
+        <div class="footer-text" id="footer-text">
             <!-- Footer Left -->
             <div class="footer-left">
                 <span>&copy; Colmar Academy. All rights reserved</span> 
