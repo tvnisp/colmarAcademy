@@ -1,0 +1,397 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "Monoton", cursive;
+    font-weight: 400;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: 'Nixie One', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #F3F8FC;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #F3F8FC;
+}
+
+strong {
+    font-weight: bold;
+}
+
+main {
+    padding-top: 4rem;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+/* Navigation Bar */
+
+.nav-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 4rem;
+    opacity: 0.9;
+    z-index: 4;
+    background-color: #F3F8FC;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 8px black;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 1.5rem;
+}
+
+.nav-left img {
+    width: 3rem;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
+.nav-right ul {
+    display: flex;
+}
+
+.nav-right li {
+    margin-left: 1rem;
+}
+
+.nav-right li a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: color 400ms linear 50ms;
+    border-right: 1px solid #27658B;
+    padding-right: 0.6rem;
+    text-transform: uppercase;
+}
+
+.nav-right a:hover {
+    color: #27658B;
+    text-decoration: line-through;
+}
+
+.nav-right li a.active {
+    border-bottom: 1px solid #27658B;
+}
+
+/* Main Banner */
+
+.banner {
+    width: 100%;
+    background-color: #102736;
+    display: flex;
+    border-bottom: 2px solid white;
+}
+
+.banner-left {
+    width: 60%;
+    padding: 2rem 0 2rem 1.5rem;
+}
+
+.banner-left img {
+    width: 100%;
+}
+
+.banner-right {
+    width: 40%;
+    padding-left: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-text {
+    text-align: right;
+    margin-right: 5rem;
+    color: #F3F8FC;
+}
+
+.hvr-buzz {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    color: #F3F8FC;
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    background-color: rgb(49, 73, 65);
+    border: 1px solid #F3F8FC;
+    box-shadow: 2px 2px 10px #F3F8FC; 
+    transition: background-color 500ms linear 50ms;
+}
+
+.hvr-buzz:hover {
+    background-color: #102736;
+    cursor: pointer;
+}
+
+/* Section 1 */
+/* LEFT */
+.about {
+    width: 100%;
+    display: flex;
+    background-color: #2B516D;
+    border-bottom: 2px solid white;
+}
+
+.about-left {
+    width: 60%;
+    padding: 2rem 0 2rem 1.5rem;
+}
+
+.about-img-left img {
+    width: 98.9%;
+}
+
+.about-text-left h3 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.author {
+    color: white;
+    font-style: italic;
+}
+
+/* RIGHT */
+.about-right {
+    width: 40%;
+    margin-left: 1.5rem;
+    border-left: 1px solid #F3F8FC;
+    padding-top: 0.5rem;
+}
+
+.row {
+    background-color: rgb(49, 73, 65);
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    border-radius: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.row:last-child {
+    background-color: rgb(13, 26, 21);
+}
+
+.row-img {
+    width: 35%;
+    padding: 1rem;
+}
+
+.row-img img {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.384);
+}
+
+.row-text {
+    width: 65%;
+}
+
+.row-text p {
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.row-text a {
+    color: #F3F8FC; 
+    transition: color 500ms linear 50ms;    
+}
+
+.row-text a:hover {
+    color: #d9ff0096;
+}
+
+/* Arcticle, Learning Programs */
+
+.learning-programs {
+    border-bottom: 2px solid white;
+    background-color: #102736;
+    padding: 2rem 4.5rem 0 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes-container {
+    width: 100%;
+    background-color: #102736;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 32%;
+    margin-bottom: 2rem;
+    background-color: rgb(49, 73, 65);
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black;;
+}
+
+.box-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.box-text {
+    width: 100%;
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.box-text p {
+    padding: 0.5rem 0;
+}
+
+.courses  {
+    color: white;
+    font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+}
+
+/* Section 2, Thesis */
+
+.thesis {
+    background-color: #2B516D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 2rem 1.5rem;
+}
+
+.thesis-container {
+    display: flex;
+}
+/* LEFT */
+.thesis-left {
+    width: 60%;
+}
+
+.vid video {
+    width: 100%;
+}
+
+.thesis-text-left {
+    padding-top: 1.5rem;
+}
+
+.thesis-text-left h3 {
+    margin-bottom: 0.5rem;
+}
+/* RIGHT */
+.thesis-right {
+    width: 40%;
+    margin-left: 1.5rem;
+}
+
+/* Footer */
+
+.footer-text {
+    width: 100%;
+    height: 3rem;
+    padding-top: 1rem;
+    display: flex;
+    background-color: #F3F8FC;
+}
+
+.footer-left {
+    padding-left: 1.5rem;
+    flex-grow: 1;
+}
+
+.footer-right {
+    padding-right: 1rem;
+}
+
+.footer-right ul {
+    display: flex;
+}
+
+.footer-right ul li {
+    margin-left: 1rem;
+}
+
+.footer-right ul li a {
+    color: black;
+    transition: color 300ms linear 50ms;
+}
+
+.footer-right a:hover {
+    color: #102736
+}
+
+
+/* Buzz   NOT made by me! */
+@-webkit-keyframes hvr-buzz {
+    50% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+  }
+  @keyframes hvr-buzz {
+    50% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+  }
+  .hvr-buzz {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+    -webkit-animation-name: hvr-buzz;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+
+
+  
