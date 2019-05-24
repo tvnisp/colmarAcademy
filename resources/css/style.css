@@ -266,6 +266,9 @@ main {
         width: 100%;
         border-radius: 5px;
     }
+    #row-text {
+        width: 100%;
+    }
 }
 
 .row-mobile {
