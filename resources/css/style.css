@@ -354,6 +354,31 @@ main {
 
 /* Arcticle, Learning Programs */
 
+@media only screen and (max-width: 650px) {
+    .title  {
+        width: 100% !important;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .learning-programs {
+        display: none !important;
+    }
+    #hidden-article {
+        display: flex;
+        padding: 0 1rem 2rem 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.hidden-article {
+    display: none;
+    background-color: #102736;
+    border-bottom: 2px solid white;
+}
+
+
 .learning-programs {
     border-bottom: 2px solid white;
     background-color: #102736;
