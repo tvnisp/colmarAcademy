@@ -201,6 +201,14 @@ main {
 
 /* Main Banner */
 
+@media only screen and (max-width: 1500px) {
+    #banner-mobile-text {
+        width: 90% !important;
+        padding: 2rem 1rem;
+        margin: 0;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .banner {
         -webkit-box-orient: vertical;
@@ -218,9 +226,13 @@ main {
             -ms-flex-align: center;
                 align-items: center;
     }
-    .banner-text {
+    #banner-mobile-text {
+        width: 100%;
         padding: 2rem 1rem;
-        margin: 0 !important;
+        margin: 0;
+    }
+    .hvr-buzz {
+        width: 100% !important;
     }
 }
 
@@ -248,21 +260,19 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
 }
 
 .banner-text {
-    text-align: right;
-    margin-right: 5rem;
+    text-align: left;
     color: #F3F8FC;
+    width: 65%;
 }
 
 .hvr-buzz {
+    width: 100%;
     font-family: 'Oswald', sans-serif;
     font-size: 1rem;
     color: #F3F8FC;
