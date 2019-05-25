@@ -234,6 +234,9 @@ main {
     .hvr-buzz {
         width: 100% !important;
     }
+    #banner-mobile-text h2 {
+        line-height: 4rem;
+    }
 }
 
 .banner {
