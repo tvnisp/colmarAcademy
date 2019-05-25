@@ -250,7 +250,7 @@ main {
 
 .banner {
     width: 100%;
-    background-color: #102736;
+    background-image: linear-gradient(to top left, #102736, #143245, #183d54, #1c4863, #205372, #245e81, #286990, #2c749f);  
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -290,18 +290,19 @@ main {
     color: #F3F8FC;
     padding: 1rem 4rem;
     border-radius: 5px;
-    background-color: rgb(49, 73, 65);
+    background-image: linear-gradient(to top left, #61907e, #102736, #143245, #183d54,#61907e);  
     border: 1px solid #F3F8FC;
     -webkit-box-shadow: 2px 2px 10px #F3F8FC;
             box-shadow: 2px 2px 10px #F3F8FC; 
     -webkit-transition: background-color 500ms linear 50ms; 
     -o-transition: background-color 500ms linear 50ms; 
-    transition: background-color 500ms linear 50ms;
+    transition: color 500ms linear 50ms;
 }
 
 .hvr-buzz:hover {
-    background-color: #102736;
+    color: #61907e;  
     cursor: pointer;
+    text-decoration: line-through;
 }
 
 /* Section 1 */
@@ -353,7 +354,7 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: #2B516D;
+    background-image: linear-gradient(to bottom right, #2b516d, #366689, #417ba5, #4785b3);  
     border-bottom: 2px solid white;
 }
 
@@ -400,11 +401,11 @@ main {
 }
 
 .about-right .row:last-child {
-    background-color: rgb(49, 73, 65);
+    background-image: linear-gradient(to bottom right, #314941, #39554b, #416155,#496d5f, #61907e);  
 }
 
 .about-right .row:hover {
-    background-color: rgb(41, 54, 50);
+    background-image: linear-gradient(to bottom right, #293632, #31413c, #394c46, #415750, #5a796f);  
     cursor: pointer;
 }
 
@@ -469,7 +470,7 @@ main {
 
 .hidden-article {
     display: none;
-    background-color: #102736;
+    background-image: linear-gradient(to bottom right, #102736, #143245, #183d54, #1c4863, #205372, #245e81, #286990, #2c749f, #307fae, #348abd);
     border-bottom: 2px solid white;
 }
 
@@ -498,19 +499,19 @@ main {
 }
 
 .boxes-mobile .box1 h4:hover {
-    background-color: rgb(41, 54, 50);
+    background-image: linear-gradient(to bottom right, #293632, #31413c, #394c46, #415750, #5a796f);  
     cursor: pointer;
 }
 
 .box1 h4 {
     padding: 1rem 5rem 1.5rem 1rem;
-    background-color: rgb(49, 73, 65);
+    background-image: linear-gradient(to bottom right, #314941, #39554b, #416155,#496d5f, #61907e);  
     font-size: 1.6rem;
 }
 
 .learning-programs {
     border-bottom: 2px solid white;
-    background-color: #102736;
+    background-image: linear-gradient(to bottom right, #102736, #143245, #183d54, #1c4863, #205372, #245e81, #286990, #2c749f, #307fae, #348abd);
     padding: 2rem 4.5rem 0 4.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -526,7 +527,6 @@ main {
 
 .boxes-container {
     width: 100%;
-    background-color: #102736;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -540,14 +540,14 @@ main {
 .box {
     width: 32%;
     margin-bottom: 2rem;
-    background-color: rgb(49, 73, 65);
+    background-image: linear-gradient(to bottom right, #314941, #39554b, #416155,#496d5f, #61907e);  
     border-radius: 10px;
     -webkit-box-shadow: 8px 8px 10px black;
             box-shadow: 8px 8px 10px black;;
 }
 
 .box:hover {
-    background-color: rgb(41, 54, 50);
+    background-image: linear-gradient(to bottom right, #293632, #31413c, #394c46, #415750, #5a796f);  
     cursor: pointer;
 }
 
@@ -592,7 +592,7 @@ main {
 
 
 .thesis {
-    background-color: #2B516D;
+    background-image: linear-gradient(to bottom right, #2b516d, #366689, #417ba5, #4785b3);  
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -635,11 +635,11 @@ main {
 }
 
 .thesis-right .row:first-child {
-    background-color: rgb(49, 73, 65);
+    background-image: linear-gradient(to bottom right, #314941, #39554b, #416155,#496d5f, #61907e);  
 }
 
 .thesis-right .row:hover {
-    background-color: rgb(41, 54, 50);
+    background-image: linear-gradient(to bottom right, #293632, #31413c, #394c46, #415750, #5a796f);  
     cursor: pointer;
 }
 
