@@ -46,6 +46,7 @@ strong {
 main {
     padding-top: 4rem;
     width: 90%;
+    transition: width 400ms linear 50ms;
     margin: 0 auto;
     -webkit-box-shadow: 5px 5px 15px black;
             box-shadow: 5px 5px 15px black;
@@ -129,6 +130,7 @@ main {
 }
 
 .nav-container {
+    transition: width 400ms linear 50ms;
     width: 90%;
     left: 5%;
     position: fixed;
