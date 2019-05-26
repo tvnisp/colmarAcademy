@@ -526,7 +526,7 @@ main {
     margin-bottom: 2rem;
     background-image: linear-gradient(to bottom right, #314941, #39554b, #416155,#496d5f, #61907e);  
     border-radius: 10px;
-    transition: transform 150ms ease-in-out 50ms;
+    transition: transform 150ms ease-in-out;
     -webkit-box-shadow: 8px 8px 10px black;
             box-shadow: 8px 8px 10px black;;
 }
